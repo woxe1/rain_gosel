@@ -2,6 +2,6 @@
 
 
 <p align="center">
-<img src="https://github.com/woxe1/ztrotate/blob/main/assets/wheel.png" width="10%">
+<img src="https://github.com/woxe1/ztrotate/blob/main/assets/wheel.png" width="50%">
 </p>
 
