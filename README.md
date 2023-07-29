@@ -11,11 +11,11 @@ I tried to use three ways:
 <p></p>
 <p> </p>
 
-|Way|Problem|
-|---|-------|
-|Use ubuntu usb power control|even when device is disconnected it supplied with power|
-|use AT commands to reboot device| In according with MF79U it hasn't any AT commands for rebooting. Another commands not works... I can only know the device number|
-|Use fetch with help of browser interface| Every request calculate hash sum with unknown parameters and js compiled so i can't find that data to recalculate|
+| Way                                      | Problem                                                                                                                          |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Use ubuntu usb power control             | Even when device is disconnected it supplied with power                                                                          |
+| Use AT commands to reboot device         | In according with MF79U it hasn't any AT commands for rebooting. Another commands not works... I can only know the device number |
+| Use fetch with help of browser interface | Every request calculate hash sum with unknown parameters and js compiled so i can't find that data to recalculate                |
 
 
 <h3>      I solve to provide restarting with browser automations. My raspberry can run it (rock pi 4a).
