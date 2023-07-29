@@ -23,7 +23,7 @@ I didn't find lightweight browser, so decide to use Firefox with gecko. But i do
 and want control it in a http-way. This is cause of golang in use.
 </h3>
 <h3>
-    sd
+  
 </h3>
 
 
