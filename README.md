@@ -22,9 +22,15 @@ I tried to use three ways:
 I didn't find lightweight browser, so decide to use Firefox with gecko. But i don't want install a python
 and want control it in a http-way. This is cause of golang in use.
 </h3>
-<h3>
-  
-</h3>
+
+
+
+
+
+| script                                                                                      | Location                         |
+|---------------------------------------------------------------------------------------------|----------------------------------|
+| download and install geckodriver from source due to strange rock only that way works for me | /scripts/download_geckodriver.sh |
+
 
 
 
