@@ -17,10 +17,10 @@ I tried to use three ways:
 |use AT commands to reboot device| In according with MF79U it hasn't any AT commands for rebooting. Another commands not works... I can only know the device number|
 |Use fetch with help of browser interface| Every request calculate hash sum with unknown parameters and js compiled so i can't find that data to recalculate|
 
-<h5>I solve to provide restarting with browser automations. My raspberry can run it (rock pi 4a).
+<h3>I solve to provide restarting with browser automations. My raspberry can run it (rock pi 4a).
 I didn't find lightweight browser, so decide to use Firefox with gecko. But i don't want install a python
 and want control it in a http-way. This is cause of golang in use.
-</h5>
+</h3>
 
 
 
