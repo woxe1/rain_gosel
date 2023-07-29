@@ -4,7 +4,7 @@
 
 <h1 align="center">ZTE-ROTATE</h1>
 <p align="center">
-<img src="https://github.com/woxe1/ztrotate/blob/main/assets/wheel.png" width="50%">
+<img src="https://i.ibb.co/rc6cxfM/wheel.png" width="50%">
 </p>
 This project is a strange way to solve problem with rotating IP addresses on 4g modems.
 I tried to use three ways:
