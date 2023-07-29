@@ -18,18 +18,15 @@ I tried to use three ways:
 | Use fetch with help of browser interface | Every request calculate hash sum with unknown parameters and js compiled so i can't find that data to recalculate                |
 
 
-<h3>      I solve to provide restarting with browser automations. My raspberry can run it (rock pi 4a).
+I solve to provide restarting with browser automations. My raspberry can run it (rock pi 4a).
 I didn't find lightweight browser, so decide to use Firefox with gecko. But i don't want install a python
 and want control it in a http-way. This is cause of golang in use.
-</h3>
 
 
 
-
-
-| script                                                                                      | Location                         |
-|---------------------------------------------------------------------------------------------|----------------------------------|
-| download and install geckodriver from source due to strange rock only that way works for me | /scripts/download_geckodriver.sh |
+| script                                                                                      | Behaviour                                                                             | Location                       |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------|
+| download and install geckodriver from source due to strange rock only that way works for me | Go to github page of geckodriver, takes version and do wget don't checks dependencies | /scripts/download_geckodriver.sh |
 
 
 
