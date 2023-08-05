@@ -1,0 +1,10 @@
+version: '3'
+services:
+  my_script_container:
+    image: rust:latest
+    working_dir: /bash
+    volumes:
+      - ./bash:/bash
+    command: >
+      /bin/sh ./download_geckodriver.sh
+
