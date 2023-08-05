@@ -20,6 +20,7 @@ gecko_folder=$(find . -type d -name "*0" -print -quit)
 echo "UNZIP_FOLDER:  $gecko_folder"
 
 cd "$gecko_folder"
+echo "$gecko_folder"
 
 cargo build --release
 
@@ -29,4 +30,5 @@ executable_geckodriver=$(find ./target/release -maxdepth 1 -type f -executable)
 cp "$executable_geckodriver" ./../../geckodriver
 
 cd ./../..
+ls
 rm -r geckosource
