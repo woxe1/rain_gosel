@@ -6,5 +6,5 @@ services:
     volumes:
       - ./bash:/bash
     command: >
-      /bin/sh ./download_geckodriver.sh
+      apk update && apk add firefox
 
